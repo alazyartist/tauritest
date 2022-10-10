@@ -11,7 +11,11 @@
 	},
 	"tauri": {
 		"allowlist": {
-			"all": true
+			"all": true,
+			"fs": {
+				"all": true,
+				"scope": ["*"]
+			}
 		},
 		"bundle": {
 			"active": true,
@@ -57,7 +61,7 @@
 				"fullscreen": false,
 				"height": 600,
 				"resizable": true,
-				"title": "tauritest",
+				"title": "gitCreative",
 				"width": 800
 			}
 		]

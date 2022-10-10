@@ -1,3 +1,4 @@
+
 #![cfg_attr(
   all(not(debug_assertions), target_os = "windows"),
   windows_subsystem = "windows"
@@ -12,5 +13,5 @@ fn main() {
 
 #[tauri::command]
 fn test(name: &str)-> String {
-  format!("Welcome to gitCREATIVE, {}, you're version tracking helper", name)
+  format!("Welcome to gitCREATIVE, {}, your version tracking helper", name)
 }
